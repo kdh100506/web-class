@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BinggreIi';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'YeogiOttaeJalnan';
+}
+
+#head{
+  background-color: rgb(255, 249, 231);
+  text-align: center;
+  padding: 10px;
+}
+
+.section{
+  border: 1px solid #000000;
+  width: 300px;
+  height: 440px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  /* box-shadow: 2px 2px 3px 3px gray; */
+}
+
+.book_title{
+  background: rgb(255, 240, 195);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'BinggreIi';
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000000aa;
+  /* border-style: groove solid dashed double; */
+  /* border-top-style: dashed; */
+  /* border-color: red orange green blue; */
+  /* border-bottom-color: red; */
+  /* border-width: 5px 10px 15px 20px; */
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.book_bb{
+  font-size: 15px;
+}
+
+/* #cleancode{
+  margin: 10px 20px;
+}
+
+#namiya{
+  margin: 10px 20px 30px;
+}
+
+#kite{
+  margin: 10px 20px 30px 40px;
+} */

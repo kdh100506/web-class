@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, darkblue, purple);
+    color: white;
+    margin-top: 10px;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.accent{
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, darkblue, purple) ;
+    background-clip: text ;
+    -webkit-text-fill-color: transparent ;
+    width: 300px;
+}
+
+#introduce{
+    margin-top: 60px;
+    color: blue !important;
+}
+
+#introduce{
+    color: red;
+}
+
+.licence{
+    list-style-type: none;
+    padding-left: 10px;
+}
+#profile{
+    list-style-position: inside;
+    list-style-type: upper-roman;
+}
