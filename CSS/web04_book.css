@@ -18,28 +18,39 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: rgb(255, 251, 240);
+}
+
 h1{
   font-family: 'YeogiOttaeJalnan';
 }
 
 #head{
-  background-color: rgb(255, 249, 231);
+  background-color: rgb(254, 247, 226);
   text-align: center;
   padding: 10px;
+  /* box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.150); */
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
 }
 
 .section{
-  border: 1px solid #000000;
-  width: 300px;
-  height: 440px;
-  margin: 30px auto;
+  border: 2px solid #000000;
+  width: 380px;
+  height: 490px;
+  margin: 50px auto;
   padding: 20px;
   border-radius: 20px;
+  background-color: #ffffff;
+  /* float: left; */
+  /* margin-left: 150px; */
   /* box-shadow: 2px 2px 3px 3px gray; */
 }
 
 .book_title{
-  background: rgb(255, 240, 195);
+  background: rgb(255, 237, 184);
   border-radius: 10px;
   padding: 10px;
   text-align: center;
@@ -48,8 +59,9 @@ h1{
 
 .image{
   width: 200px;
-  height: 200px;
-  border: 2px solid #000000aa;
+  height: 300px;
+  border: 1px solid #000000aa;
+  /* border: 10px dotted #000000aa; */
   /* border-style: groove solid dashed double; */
   /* border-top-style: dashed; */
   /* border-color: red orange green blue; */
@@ -57,6 +69,8 @@ h1{
   /* border-width: 5px 10px 15px 20px; */
   border-radius: 20px;
   margin: 20px auto;
+  padding: 10px;
+  /* background-color: orange; */
 }
 
 .book_bb{
@@ -64,13 +78,81 @@ h1{
 }
 
 /* #cleancode{
-  margin: 10px 20px;
+  background: linear-gradient(to left bottom, #f6d365, white 20%, #fda085 40%);
 }
 
 #namiya{
-  margin: 10px 20px 30px;
+  background: linear-gradient(45deg, #f6d365, white 20%, #fda085 40%);
 }
 
 #kite{
-  margin: 10px 20px 30px 40px;
+  background: radial-gradient(#f6d365, white, #fda085);
+}
+
+#grad_test{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, white 1%, blue 99%);
 } */
+
+/* #cleancode_img{
+  background-clip: border-box;
+}
+
+#namiya_img{
+  background-clip: padding-box;
+}
+
+#kite_img{
+  background-clip: content-box;
+} */
+
+/* #main{
+  background-image: url("../images/cleancode.jpg");
+  background-repeat: repeat-y;
+  background-position: center center;
+  background-attachment: fixed;
+  background: url("../images/cleancode.jpg") no-repeat 10% 50% fixed;
+  background-size: 50% 50%;
+} */
+
+#cleancode_img{
+  background-image: url("../images/cleancode.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#namiya_img{
+  background-image: url("../images/namiya.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#kite_img{
+  background-image: url("../images/thekiterunner.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+}
+
+#nav ul{
+  list-style: none;
+  padding: 10px;
+  background-color: rgb(255, 237, 182);
+  text-align: center;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.150);
+}
+
+#nav ul li{
+  display: inline-block;
+  border: 1px solid black;
+  width: 200px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 10px;
+  background-color: #ffffff;
+}
