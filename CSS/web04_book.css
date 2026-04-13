@@ -150,9 +150,33 @@ h1{
   display: inline-block;
   border: 1px solid black;
   width: 200px;
-  padding: 10px;
+  padding: 0;
   font-size: 18px;
   text-align: center;
   margin: 0 10px;
   background-color: #ffffff;
+}
+
+#nav a:link{
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#nav a:link{
+  color: #000000;
+  text-decoration: none;
+}
+
+#nav a:visited{
+  color: #000000;
+  text-decoration: none;
+}
+
+#nav a:hover{
+  display: block;
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  font-weight: bold;
 }
