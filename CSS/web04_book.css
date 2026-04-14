@@ -36,6 +36,10 @@ h1{
   width: 100%; */
 }
 
+#main{
+  text-align: center;
+}
+
 .section{
   border: 2px solid #000000;
   width: 380px;
@@ -44,6 +48,7 @@ h1{
   padding: 20px;
   border-radius: 20px;
   background-color: #ffffff;
+  display: inline-block;
   /* float: left; */
   /* margin-left: 150px; */
   /* box-shadow: 2px 2px 3px 3px gray; */
@@ -78,18 +83,20 @@ h1{
 }
 
 /* #cleancode{
+  float: left;
   background: linear-gradient(to left bottom, #f6d365, white 20%, #fda085 40%);
 }
 
 #namiya{
+  float: right;
   background: linear-gradient(45deg, #f6d365, white 20%, #fda085 40%);
 }
 
 #kite{
   background: radial-gradient(#f6d365, white, #fda085);
-}
+} */
 
-#grad_test{
+/* #grad_test{
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -157,7 +164,7 @@ h1{
   background-color: #ffffff;
 }
 
-#nav a:link{
+#nav a{
   display: block;
   padding: 10px;
   box-sizing: border-box;
@@ -177,6 +184,14 @@ h1{
   display: block;
   color: #ffffff;
   background-color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#nav a:active{
+  display: block;
+  color: #ffffff;
+  background-color: #d448ff;
   text-decoration: none;
   font-weight: bold;
 }

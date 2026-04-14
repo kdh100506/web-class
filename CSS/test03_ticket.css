@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header{
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header h1{
+  text-align: center;
+  padding: 30px 0;
+  color: #ffffff;
+}
+
+#header ul{
+  list-style: none;
+  text-align: center;
+}
+
+#header ul li{
+  display: inline-block;
+  padding: 10px 20px;
+  border-top: 1px solid #ffffffcc;
+  border-bottom: 1px solid #ffffffcc;
+  margin: 0 20px 30px 20px;
+}
+
+#header ul a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header ul li:hover{
+  background-color: #ffffff33;
+  font-weight: bolder;
+  border-top: 2px solid #ffffffcc;
+  border-bottom: 2px solid #ffffffcc;
+  padding: 9px 20px;
+}
+
+.content{
+  text-align: center;
+  border-bottom: 1px solid #00000055;
+  padding: 15px 0 50px 0;
+}
+
+.content h2{
+  text-align: center;
+  padding: 30px;
+}
+
+.content .mini_content{
+  display: inline-block;
+}
+
+.section{
+  width: 350px;
+  height: 470px;
+  padding: 5px;
+  margin: 0 70px;
+}
+
+.section #img_concert_1{
+  margin: auto;
+  background-image: url('../images/콘서트_쇼미더머니12콘서트.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_concert_2{
+  margin: auto;
+  background-image: url('../images/콘서트_박지현.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_concert_3{
+  margin: auto;
+  background-image: url('../images/콘서트_iKON\ FOUREVER\ TOUR.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_musical_1{
+  margin: auto;
+  background-image: url('../images/뮤직컬_펑크.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_musical_2{
+  margin: auto;
+  background-image: url('../images/뮤직컬_빨래.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_musical_3{
+  margin: auto;
+  background-image: url('../images/뮤직컬_전설의\ 리틀\ 농구단.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Classical_1{
+  margin: auto;
+  background-image: url('../images/클래식_아리아의\ 밤.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Classical_2{
+  margin: auto;
+  background-image: url('../images/클래식_세빌리아의\ 이발사.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Classical_3{
+  margin: auto;
+  background-image: url('../images/클래식_케이팝\ 데몬헌터스.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Exhibition_1{
+  margin: auto;
+  background-image: url('../images/전시_위시캣\ 테마파크.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Exhibition_2{
+  margin: auto;
+  background-image: url('../images/전시_나혼렙.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Exhibition_3{
+  margin: auto;
+  background-image: url('../images/전시_체인소멘.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Family_1{
+  margin: auto;
+  background-image: url('../images/가족_내머리\ 똥.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Family_2{
+  margin: auto;
+  background-image: url('../images/가족_콧구멍.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section #img_Family_3{
+  margin: auto;
+  background-image: url('../images/가족_티니핑.jpg');
+  background-size: cover;
+  width: 300px;
+  height: 420px;
+}
+
+.section .information{
+  padding: 10px 0 0 20px;
+  text-decoration: none;
+}
+
+.section .information p{
+  text-align: left;
+  color: #00000099;
+}
