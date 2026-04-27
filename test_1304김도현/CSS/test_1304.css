@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'OneStoreMobilePop';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/ONE-Mobile-POP.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+  font-family: 'OneStoreMobilePop';
+  padding: 10px;
+}
+
+header #logo {
+  margin: 10px 100px;
+}
+
+nav > ul {
+  list-style: none;
+  text-align: center;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+}
+
+nav > ul > li {
+  position: relative;
+}
+
+#main_img {
+  margin: 30px auto;
+  width: 1400px;
+  height: 600px;
+  background-image: url('../images/main_img2.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+#main_title {
+  position: absolute;
+  font-size: 30px;
+  bottom: 90px;
+  left: 650px;
+  /* top: 200px; */
+  /* left: 100px; */
+  color: rgb(255, 255, 255, 0.8);
+  font-weight: bold;
+}
+
+.submenu {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(241, 241, 241);
+  border: 1px solid gray;
+  display: none;
+}
+
+/* 서브 메뉴를 보이게함 */
+nav > ul > li:hover .submenu {
+  display: block;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+}
+
+/* 메뉴 클릭시 밑에 파란 보더로 표시 */
+nav > ul > li:hover {
+  border-bottom: 3px solid #2966b7;
+}
+
+/* 테이블 보더 생성 및 보더 사이 빈칸 삭제 */
+main #date table {
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+main #date table th {
+  border: 1px solid #000000;
+}
+
+main #date table td {
+  border: 1px solid #000000;
+}
+
+/* p를 묶음 */
+#group {
+  text-align: center;
+  position: relative;
+}
+
+main #date {
+  box-shadow: 0 0 10px 10px #d2d2d2;
+  background-color: rgb(241, 241, 241);
+  display: inline-block;
+  width: 450px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+  left: 20px;
+}
+
+main #date h2 {
+  margin: 20px;
+}
+
+.yellow {
+  background-color: #efc11abb;
+}
+
+.red {
+  background-color: #ef1a1a7c;
+}
+
+main #date .p {
+  margin: 30px 20px;
+  text-align: left;
+}
+main #date p {
+  margin: 10px 0;
+  text-align: left;
+}
+
+main #try {
+  box-shadow: 0 0 10px 10px #d2d2d2;
+  display: inline-block;
+  width: 450px;
+  height: 600px;
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+  top: 0;
+  left: 35%;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+main #try h2 {
+  margin: 20px;
+}
+
+main #try input {
+  padding: 15px 20px;
+  width: 250px;
+  border-radius: 60px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+main #try select {
+  padding: 15px 20px;
+  width: 250px;
+  border-radius: 60px;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+}
+
+main #try .btn {
+  padding: 15px 20px;
+  width: 110px;
+  border-radius: 60px;
+  border: 1px solid gray;
+  margin: 10px;
+}
+
+main #info {
+  display: inline-block;
+  width: 450px;
+  border-radius: 20px;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  background-color: rgb(241, 241, 241);
+  box-shadow: 0 0 10px 10px #d2d2d2;
+}
+
+main #info h2 {
+  margin: 20px;
+}
+
+main #info img {
+  width: 300px;
+  height: 400px;
+}
+
+main #info #title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+main #info p {
+  margin-left: 20px;
+  text-align: left;
+}
+
+footer {
+  margin-top: 800px;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(194, 194, 194);
+  color: #000000;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.footer_logo {
+  font-size: 30px;
+  font-family: 'OneStoreMobilePop';
+  margin-bottom: 20px;
+}
+
+.footer_info {
+  font-size: 20px;
+}

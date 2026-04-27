@@ -1,7 +1,71 @@
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-1Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-2ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-3Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'A2z';
 }
 
 #header{
@@ -41,7 +105,7 @@
   font-weight: bolder;
   border-top: 2px solid #ffffffcc;
   border-bottom: 2px solid #ffffffcc;
-  padding: 9px 20px;
+  padding: 9px 19px;
 }
 
 .content{
@@ -194,4 +258,54 @@
 .section .information p{
   text-align: left;
   color: #00000099;
+}
+
+#footer{
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+}
+
+#footer #link{
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+#footer ul li{
+  list-style: none;
+}
+
+#footer #link a{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 20px;
+  border-left: 1px solid #00000055;
+}
+
+#footer #link a:hover{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 19px;
+  border-left: 1px solid #00000055;
+}
+
+#footer #link #left{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 20px;
+  border: none;
+}
+
+#footer #company{
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+#footer #company li{
+  display: block;
+  color: #ffffff;
+  font-weight: lighter;
 }

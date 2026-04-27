@@ -1,0 +1,447 @@
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-1Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-2ExtraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-3Light.woff2') format('woff2');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-4Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-5Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-6SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-7Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'A2z';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2601-6@1.0/에이투지체-9Black.woff2') format('woff2');
+    font-weight: 900;
+    font-display: swap;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'A2z';
+}
+
+#header{
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+}
+
+#header a{
+  text-decoration: none;
+}
+
+#header h1{
+  text-align: center;
+  padding: 30px 0;
+  color: #ffffff;
+}
+
+#header ul{
+  list-style: none;
+  text-align: center;
+}
+
+#header ul li{
+  display: inline-block;
+  padding: 10px 20px;
+  border-top: 1px solid #ffffffcc;
+  border-bottom: 1px solid #ffffffcc;
+  margin: 0 20px 30px 20px;
+}
+
+#header ul a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#header ul li:hover{
+  background-color: #ffffff33;
+  font-weight: bolder;
+  border-top: 2px solid #ffffffcc;
+  border-bottom: 2px solid #ffffffcc;
+  padding: 9px 19px;
+}
+
+#main .title{
+  padding: 0 0 20px 100px;
+  margin: 50px 5%;
+  border-bottom: 1px solid #00000055;
+}
+
+#main .information{
+  margin-top: 70px;
+}
+
+#main .information div{
+  margin-bottom: 20px;
+}
+
+#main .color{
+  color: #ba1c1c;
+}
+
+#level p{
+  margin: 0 10px;
+  display: inline-block;
+}
+
+#time p{
+  margin: 0 10px;
+  display: inline-block;
+}
+
+#people p{
+  margin: 0 10px;
+  display: inline-block;
+}
+
+#price #price_text{
+  float: inline-start;
+  width: 121px; 
+  height: 100px;
+}
+
+#price p{
+  margin: 0 10px;
+  display: inline-block;
+}
+
+#price div{
+  display: inline-block;
+  width: 550px;
+  background-color: #00000011;
+  padding: 10px;
+}
+
+#price div p{
+  display: inline-block;
+  width: 450px;
+  padding: 15px 10px;
+}
+
+#price div span{
+  border-top: 1px solid #00000055;
+  display: block;
+  width: 500px;
+  padding: 20px 10px 0 10px;
+  margin: 10px 10px;
+}
+
+#price div button{
+  margin-left: 20px;
+  padding: 4px;
+  border: 1px solid #000000aa;
+  background-color: #ffffff00;
+}
+
+#price div button:hover{
+  margin-left: 20px;
+  padding: 3px;
+  border: 2px solid #000000aa;
+  background-color: #ffffffaa;
+}
+
+#coupon #coupon_text{
+  float: inline-start;
+  width: 120px; 
+}
+
+#coupon p{
+  display: inline-block;
+  width: 450px;
+  padding: 15px 10px;
+}
+
+#coupon div{
+  display: inline-block;
+  width:550px;
+  background-color: #00000011;
+  padding: 25px;
+  margin: 0 20px;
+}
+
+#coupon div p{
+  display: inline-block;
+  width: 500px;
+  padding: 10px;
+}
+
+#coupon label{
+  padding: 15px 5px 0 0;
+  margin-left: 45px;
+}
+
+#coupon label:hover{
+  padding: 15px 3.5px 0 0;
+  margin-left: 45px;
+  font-weight: bold;
+}
+
+#date p{
+  margin: 0 10px;
+  display: inline-block;
+}
+
+#date #date_text{
+  float: inline-start;
+  width: 120px; 
+}
+
+#date div{
+  display: inline-block;
+  width:550px;
+  background-color: #00000011;
+  padding: 10px;
+}
+
+#date div span{
+  display: inline-block;
+  padding: 15px 10px;
+  margin: 0 0 0 30px;
+}
+
+#date div select{
+  padding: 5px;
+  border: 1px solid #000000aa;
+}
+
+#date div select:hover{
+  padding: 4px;
+  border: 2px solid #000000aa;
+  background-color: #ffffffaa;
+}
+
+#main #img{
+  margin: 0 50px 50px 10%;
+  background-image: url('../images/콘서트_쇼미더머니12콘서트.jpg');
+  background-size: cover;
+  width: 400px;
+  height: 560px;
+  float: left;
+}
+
+#main table{
+  border-collapse: collapse;
+  margin: 100px auto 0 auto;
+  width: 1200px;
+  height: 800px;
+  border: 1px solid #00000055;
+  text-align: center;
+  align-items: center;
+}
+
+#main table .table_title{
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+  color: #ffffff;
+}
+
+#main table td{
+  border: 1px solid #00000055;
+  width: 70px;
+  align-items: center;
+}
+
+#main table .sit:hover{
+  background-color: #ff3b3bcc;
+  font-weight: bold;
+}
+
+#main table td.sit {
+  padding: 0;
+}
+
+.check {
+  display: none;
+}
+
+.check + label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.check:checked + label {
+  background-color: #ffdd00cc;
+  font-weight: bold;
+}
+
+#main table .standing_1{
+  border: 1px solid #00000055;
+}
+
+#main table .standing_2{
+  border: 1px solid #00000055;
+}
+
+#main table .standing_3{
+  border: 1px solid #00000055;
+}
+
+#main table .passage_col_ceter{
+  border: none;
+  width: 50px;
+}
+
+#main table .passage_left{
+  border: none;
+  width: 10px;
+}
+
+#main table .passage_right{
+  border: none;
+  width: 10px;
+}
+
+#main table .passage_row_center{
+  border: none;
+  height: 50px;
+}
+
+#main table .passage_top{
+  border: none;
+  height: 10px;
+}
+
+#main table .passage_bottom{
+  border: none;
+  height: 10px;
+}
+
+#main table .passage_bottom_door{
+  border: 1px solid #00000055;
+  height: 10px;
+  background-color: #73c11f55;
+}
+
+#main .buttons{
+  margin: 50px 5%;
+  padding: 50px;
+  text-align: center;
+}
+
+#main .buttons #buy{
+  font-size: 20px;
+  padding: 15px 25px;
+  color: #ffffff;
+  border: none;
+  border-radius: 0;
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+  margin-right: 30px;
+}
+
+#main .buttons #reset{
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 0;
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+}
+
+#main .buttons #reset b{
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: #ffaa00;
+  border-radius: 0;
+  background-color: #ffffff;
+}
+
+#footer{
+  background: linear-gradient(135deg, #ffdd00, #ff3b3b);
+}
+
+#footer #link{
+  text-align: center;
+  display: block;
+  padding: 20px;
+}
+
+#footer ul li{
+  list-style: none;
+}
+
+#footer #link a{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 20px;
+  border-left: 1px solid #00000055;
+}
+
+#footer #link a:hover{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px;
+  border-left: 1px solid #00000055;
+}
+
+#footer #link #left{
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 19px;
+  border: none;
+}
+
+#footer #company{
+  text-align: center;
+  padding: 0 0 20px 0;
+}
+
+#footer #company li{
+  display: block;
+  color: #ffffff;
+  font-weight: lighter;
+}
